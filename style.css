@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+}
+
+div{
+ height:110vh;   
+}
+a{
+    text-decoration:none;
+    text-align: center;
+    float: right;
+    font-size:1.1em;
+    padding:2vh  2vw  0vh  5vh;/* t  r b l */
+    margin:0.5vh 1vw;
+    height:1.7em;
+    color: #000;
+}
+a:hover
+{
+    background-color: rgb(196, 183, 183);
+}
+#nav
+{
+    background-color: #fff;
+    height:9vw;
+    max-height:3.7em;
+    min-height:2em;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+#title{
+background-image: url("/img/hamburger.jpg");
+background-size:100%;
+background-repeat: no-repeat;
+color: rgb(196, 183, 183);
+padding:40vw 0 0 2vw;
+
+}
+#about
+{
+    background-color:aqua;
+}
+#menu{
+background-color: chartreuse;
+}
+#contact
+{
+ background-color: azure;
+}
+#footer{
+    background-color:gray;
+    height:17vh;
+}
+
+@media only screen and (max-width:527px) {
+    .small_size{
+      display:none;
+    }
+    a{
+        letter-spacing: 4px;
+    }
+  }
